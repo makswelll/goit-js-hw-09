@@ -1,0 +1,65 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0;
+}
+section {
+  text-align: center;
+  margin: 20px;
+}
+p {
+  margin-bottom: 20px;
+}
+.input-date-conteiner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+#datetime-picker {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+button[data-start] {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.timer {
+  display: flex;
+  justify-content: center;
+}
+.field {
+  margin: 0 10px;
+  font-size: 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.value {
+  font-weight: 800;
+}
+.label {
+  font-size: 14px;
+  color: #777;
+}
+
+#resetTimerBtn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
